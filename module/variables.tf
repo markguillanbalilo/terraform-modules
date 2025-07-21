@@ -52,3 +52,8 @@ variable "tags" {
   type        = map(string)
   default     = {}
 }
+variable "instance_name" {
+  description = "Unique name per EC2 instance"
+  type        = string
+}
+
